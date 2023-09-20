@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("C:\task\src\Page\Assests\NetflixBackground.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  
+  .Title{
+      margin-left: 30px ;
+      margin-top: 50px;
+      color:white;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .Box{
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 400px;
+      height: 500px;
+      background-color: black;
+      opacity: 0.9;
+      
+      
+    }
+    .input{
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-top: 10px;
+     background-color: rgb(95, 93, 93);
+     
+     padding-left: 20px;
+      border-radius: 5px;
+     
+      height: 45px;
+    }
+    .input::placeholder{
+      color: rgb(188, 180, 180);
+      font-family: 'Roboto', sans-serif;
+      font-size: large;
+    }
+    .button{
+      margin-left: 30px;
+      margin-right: 30px;
+      height:50px;
+      border-radius: 7px;
+      margin-top: 30px;
+      background-color: Red;
+      font-size: large;
+      color: white;
+      border:none;
+    }
+    .Small{
+      color: rgb(90, 84, 84);
+      font-size: small;
+      margin-left: 30px;
+      margin-right: 30px;
+      
+    }
+    
+    .remember {
+      display: flex;
+    }
+    
+    .Small2{
+      color: rgb(112, 108, 108);
+      font-size: small;
+      margin-left: auto;
+      margin-right: 30px;
+    }
+    .New{
+      display: flex;
+      margin-left: 15px;
+      color: rgb(112, 108, 108);
+    }
+    .Signup1{
+      margin-left: auto ;
+      margin-right: 164px;
+      color: white;
+      font-weight: bold;
+    }
+    .page{
+      color: rgb(117, 108, 108);
+      margin-left: 30px;
+    
+    }

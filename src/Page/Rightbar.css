@@ -1,0 +1,6 @@
+.Rightbar{
+    width:25%;
+    display:flex;
+    background-color: blue;
+    height: var(product);
+}
